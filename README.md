@@ -7,7 +7,8 @@
 - Linux Ubuntu
 
 
-## make sure to change main.py permissions to execute, use:
+## To run the script use:
 ```
 chmod +x main.py
+python main.py
 ```
