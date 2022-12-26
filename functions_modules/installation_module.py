@@ -18,4 +18,4 @@ def main_install(package_manager,version,apache,sql,php):
     print(f"\n\nPython Script: SQL({sql}) Installed\n\n ")
     
     system(" ".join(["sudo",package_manager,f"install -y {php}{version}"]))
-    print(f"\n\nPython Script: PHP({php}{version}) Installed \n\n Python Script completed successfully!")
+    print(f"\n\nPython Script: PHP({php}{version}) Installed \n\nPython Script: completed successfully!")
