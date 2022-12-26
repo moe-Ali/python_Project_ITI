@@ -18,9 +18,9 @@ try:
         install_python_package("distro")
         import distro
         if "CentOS" in distro.name():
-            main_install("yum",version)
+            main_install("dnf",version,"httpd","mysql-server","php")
         elif "Ubuntu" in distro.name():
-            main_install("apt",version)
+            main_install("apt-get",version,"apache2","mysql-server","php")
         else:
             print("!Error! This Script only Supports Centos and Ubuntu")
     else:
