@@ -17,9 +17,9 @@ try:
     if platform.system() == "Linux":
         install_python_package("distro")
         import distro
-        if "Centos" in distro.linux_distribution():
+        if "Centos" in distro.name():
             main_install("yum",version)
-        elif "Ubuntu" in distro.linux_distribution():
+        elif "Ubuntu" in distro.name():
             main_install("apt",version)
         else:
             print("!Error! This Script only Supports Centos and Ubuntu")
