@@ -1,5 +1,12 @@
 # python_Project
 
-##This is a Python Script that install php with the option of selecting php version
+## This is a Python Script that installs PHP with the option of selecting PHP version
 
-#make sure to change main.py permitions to execute => use: chmod +x main.py
+## This script supports:
+```
+Linux CentOS
+Linux Ubuntu
+```
+
+> make sure to change main.py permissions to execute
+  - use: chmod +x main.py
