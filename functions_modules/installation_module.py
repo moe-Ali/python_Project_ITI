@@ -3,10 +3,7 @@ import sys
 
 #function to install python packages 
 def install_python_package(package):
-    if "python3" in sys.executable:
-        system(" ".join([sys.executable,"-m","pip3","install",package]))
-    else:
-        system(" ".join([sys.executable,"-m","pip","install",package]))
+    system(" ".join([sys.executable,"-m","pip","install",package]))
     print(f"\n\nPython Script: {package} installed\n\n")
     
 #main function to install all packages needed to run php into the os
